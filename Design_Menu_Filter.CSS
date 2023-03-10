@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+main
+{
+    width: 800px;
+}
+.options
+{
+    display: flex;
+    justify-content: space-around;
+    height: 40%;
+    height: 38px;
+}
+.option.ON
+{
+    background-color: gray;
+}
+.option
+{
+    list-style: none;
+    background-color: crimson;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    border-top: 5px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+#content
+{
+    background-color: gray;
+    color: rgb(128, 4, 29);
+}
+#para
+{
+    line-height: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
